@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignmtnt Two</title>
+        <meta name="description" content="">
+    </head>
+    <style>
+        table, th, td {
+        border:1px solid black;
+        }
+        .div1{
+            float: left;
+            width: 40%;
+                      
+        }
+        .div2{
+            float:right;
+            text-align: left;
+            width: 40%;
+            
+        }
+    </style>
+    <body>
+        <div class="div1">
+            <h2>Plants Table</h2>
+            <table style="width:100%">
+                <tr>
+                    <th>Type</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>Citric</td>
+                    <td>Orange</td>
+                </tr>
+                <tr>
+                    <td>Simple fruit</td>
+                    <td>Apple</td>
+                </tr>
+            </table>
+            <video width="320" height="240" autoplay muted controls>
+                <source src="HTML Video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="div2">
+            <h2>Simple Form</h2>
+            <form>
+                <label for="username" required>Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value="John" readonly disabled><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            </form>
+        </div>
+    </body>
+</html>
